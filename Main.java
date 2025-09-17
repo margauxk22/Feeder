@@ -4,7 +4,8 @@ public class Main
     {
 
 
-        Feeder f = new Feeder();
+        Feeder f = new Feeder(500);
         System.out.println(f);
+        System.out.println(f.getCurrentFood());
     }
 }

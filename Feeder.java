@@ -5,7 +5,8 @@ public class Feeder {
      * in the constructor and always greater than or equal to zero
      */
     private int currentFood;
-    public int getCurrentFood()
+    public Feeder(int food)
+    //public int getCurrentFood()
     {
 
      return currentFood;
